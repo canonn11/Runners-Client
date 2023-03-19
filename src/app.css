@@ -3,4 +3,5 @@
 @tailwind utilities;
 
 :root {
+  @apply bg-white w-full h-screen overflow-y-auto left-0 top-0 sm:mx-auto sm:max-w-md shadow-lg relative;
 }
