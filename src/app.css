@@ -5,3 +5,12 @@
 :root {
   @apply bg-white w-full h-screen overflow-y-auto left-0 top-0 sm:mx-auto sm:max-w-md shadow-lg relative;
 }
+
+@layer components {
+  .system-bg-color {
+    @apply bg-green-400;
+  }
+  .system-text-color {
+    @apply text-black;
+  }
+}
